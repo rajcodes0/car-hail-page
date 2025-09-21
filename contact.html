@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html" class="brand">
+            <h1>Metro <b class="accent">Ride</b></h1>
+        </a>
+
+        <div class="menu">
+            <div class="btn">
+                <i class="fas fa-solid close-btn"></i>
+            </div>
+            <a href="index.html">Home</a>
+            <a href="index.html">Cars</a>
+            <a href="index.html">About</a>
+            <a href="index.html">Reviews</a>
+        </div>
+
+        <button class="btn-2" onclick="window.location.href='contact.html'">
+            Get Started
+        </button>
+        <div class="btn">
+            <i class=" fas fa-bars menu-btn"></i>
+        </div>
+    </nav>
+    <!-- navbar ending-->
+
+    <!-- contact section-->
+    <section class="contact">
+        <h1>Get in touch for your Dream Ride!</h1>
+        <p>have questions or need assistance ? our team is here to support you 24/7 </p>
+
+        <form action="https://api.web3forms.com/submit" method="post">
+
+
+            <input 
+            type="hidden"
+            name="apikey"
+            value="2cd048fd-bd51-4034-bb34-e16907147a3f">
+
+        <div class="car-select">
+         <div class="car-select-item">
+         <label for="location">Location</label>
+        <select name="location" id="location" class="car-select-input">
+
+        <option value="delhi">delhi</option>
+        <option value="swiss">swiss</option>
+        <option value="nyc">nyc</option>
+         <option value="italy">italy</option>
+          </select>
+         </div>
+
+
+                <div class="car-select-item">
+                    <label for="car-type">Car to rent</label>
+                    <select name="car-type" id="car-type" class="car-select-input">
+                        <option value="mercedes">Mercedes</option>
+                        <option value="lambo">lambo</option>
+                        <option value="rolls-royce">rols</option>
+                        <option value="coupe">coupe</option>
+                    </select>
+                </div>
+
+
+                <div class="car-select-item">
+                    <label for="date">Date :</label>
+                    <input type="date" id="date" name="date" class="car-select-input">
+                </div>
+            </div>
+
+                <div class="contact-form">
+                    <input type="text" name="name" placeholder="Name" required />
+                    <input type="email" name="email" placeholder="Email" required />
+                    <input type="phone" name="phone" placeholder="phone" required />
+                    <button type="submit" class="btn-2">Submit</button>
+                </div>
+
+        </form>
+    </section>
+
+
+    <!--footer secttion-->
+    <footer class="contact-footer">
+
+        <div class="callout">
+            <h2>lets drive with metrolite Today!</h2>
+            <p class="callout-description">
+                Need assistance or ready to reserve your wheels?
+                contact now for prompt service and booking!.
+            </p>
+            <div class="callout-button">
+                <button class="btn-2 btn-callout" onclick="window.location.href='collection.html'">
+                    <p>Check For Cars</p>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </button>
+                <button class="btn-2 btn-callout-black" onclick="window.location.href='collection.html'">
+                    <p>Book Now</p>
+                    <i class="fa-solid fa-phone"></i>
+                </button>
+            </div>
+        </div>
+
+
+        <div class="footer-bottom">
+            <a href="#" class="footer-brand">Metro <b class="accent">Ride</b></a>
+            <div class="socials">
+                <a href="/" class="social-item">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="/" class="social-item">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="/" class="social-item">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="/" class="social-item">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+            </div>
+
+        </div>
+
+    </footer>
+    <!--footer secttion end-->
+    <script src="index.js"></script>
+</body>

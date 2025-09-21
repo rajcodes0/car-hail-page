@@ -6,28 +6,34 @@
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <title>Document</title>
      <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
  </head>
  <body>
-<nav>
+<nav id="nav">
     <a href="index.html" class="brand">
         <h1>Metro <b class="accent">Ride</b></h1> </a>
-
- <div class="menu">
-     <div class="btn">
-         <i class="fas fa-times close-btn"></i>
-     </div>
-     <a href="index.html">Home</a>
-     <a href="index.html">Cars</a>
-     <a href="index.html">About</a>
-     <a href="index.html">Reviews</a>
- </div>
-
-    <button class="btn-2" onclick="window.location.href='contact.htl'">
-        Get Started
-    </button>
-    <div class="btn">
+         <div class="btn">
         <i class=" fas fa-bars menu-btn"></i>
     </div>
+
+ <div class="menu">
+    
+     <i class="fas fa-solid close-btn"></i>
+     
+     <a href="index.html">Home</a>
+     <a href="#collection">Cars</a>
+     <a href="index.html">About</a>
+     <a href="#review">Reviews</a>
+ </div>
+
+    <button class="btn-2" onclick="window.location.href='contact.html'">
+        Get Started
+    </button>
+   
 </nav>
 <!-- navbar ending-->
 
@@ -40,7 +46,7 @@
        we offer a wide extend range of rental cars to suit your needs.
        wether you are a arreanging a weekend travel or business trip
    </p>
-<button class="btn-2 btn-hero" onclick = "window.location.href= 'contacts.html'">Get Started</button>
+<button class="btn-2 btn-hero" onclick = "window.location.href= 'contact.html'">Get Started</button>
    <div class="download-buttons">
        <img src="img/app_store_img.png" alt="png">
        <img src="img/google_play_img.png" alt="png">
@@ -95,7 +101,7 @@
 <!--about section ended-->
 
 <!--collections scetions-->
-<section class="collection" id="colllection">
+<section class="collection" id="collection">
     <h1>Our Car Collections </h1>
     <div class="collection-container">
 
@@ -211,10 +217,11 @@
         </div>
     </div>
 
-    <button class="btn-car btn-herocar">
-        <p>All Cars</p>
-        <i class="fa-solid fa-arrow-right-long"></i>
-    </button>
+   <a href="collection.html" class="btn-car btn-herocar">
+   <p>All Cars</p>
+   <i class="fa-solid fa-arrow-right-long"></i>
+</a>
+
 </section>
 
 
@@ -289,16 +296,16 @@
     <div class="footer-bottom">
         <a href="#" class="footer-brand">Metro <b class="accent">Ride</b></a>
         <div class="socials">
-            <a href="/" class="social=item">
+            <a href="/" class="social-item">
                 <i class="fa-brands fa-facebook-f"></i>
             </a>
-            <a href="/" class="social=item">
+            <a href="/" class="social-item">
                 <i class="fa-brands fa-instagram"></i>
             </a>
-            <a href="/" class="social=item">
+            <a href="/" class="social-item">
                 <i class="fa-brands fa-twitter"></i>
             </a>
-            <a href="/" class="social=item">
+            <a href="/" class="social-item">
                 <i class="fa-brands fa-telegram"></i>
             </a>
         </div>

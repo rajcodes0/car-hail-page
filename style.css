@@ -1008,27 +1008,62 @@ nav .menu .close-btn {
               font-size: 14px;
               text-align: center;
         }
+        /* Mobile Responsiveness */
 
-        .callout{
-            padding: 32px;
-        }
+    .callout {
+        padding: 20px;
+        text-align: center;
+    }
 
-        .callout h2{
-           font-size: 24px;
-           width: 100%;
-        }
-        .callout-buttons{
-            flex-direction: column;
-        }
-        .footer-button{
-            flex-direction: column;
-            padding: 10px;
-            justify-content: end;
-            align-items: center;
-        }
-        .footer-brand{
-            font-size: 24px;
-        }
+    .callout h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .callout-description {
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 15px;
+        padding: 0 10px;
+    }
+
+    .callout-button {
+        flex-direction: column !important;
+        gap: 10px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .btn-2 {
+        width: 90%;
+        justify-content: center;
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+        padding-top: 15px;
+    }
+
+    .footer-brand {
+        font-size: 20px;
+    }
+
+    .socials {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .social-item i {
+        font-size: 16px;
+    }
+}
+
+
         .collection-category{
             margin-top: 80px;
         }
@@ -1070,7 +1105,7 @@ nav .menu .close-btn {
         .contact-form .btn-2{
             width: 100%;
         }
-    }
+    
 
 
     @media(max-width:950px){

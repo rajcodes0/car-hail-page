@@ -32,5 +32,3 @@ sr.reveal(".review h1");
 sr.reveal(".review-container", { delay: 800 });
 sr.reveal(".callout");
 sr.reveal(".contact");
-
-
